@@ -1,0 +1,35 @@
+
+.two-column-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.left-column {
+  flex: 1;
+  background-color: #EADCF8;
+  padding: 2rem;
+  color: black; 
+}
+
+.right-column {
+  flex: 1;
+  background-color: #D6F1FF;
+  padding: 2rem;
+  color: black;
+}
+
+/* Links */
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; 
+  list-style: none; 
+  padding: 0; 
+}
+
+/* 🌙 Dark mode for left column */
+.left-column.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
