@@ -6,7 +6,7 @@
 
 .name-animation a {
   text-decoration: none;
-  color: #000;
+  color: #c58c21;
   opacity: 0;
   transform: translateY(10px);
   animation: fadeInUp 0.5s forwards;

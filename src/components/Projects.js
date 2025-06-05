@@ -19,12 +19,15 @@ const projectList=[
 }
 ]
 
-const Projects = ({ isDarkMode }) => {
+const Projects = ({ isDarkMode,toggleTheme }) => {
 
   return (
-  <div className='project-page'>
+  <div className={`project-page ${isDarkMode ? 'dark' : ''}`}>
     
     <section>
+    <button onClick={toggleTheme} className="theme-toggle-button">
+          Switch to {isDarkMode ? 'Light' : 'Dark'} Mode
+        </button>
       <Name/>
       <h1 className='project-title'>Projects</h1>
        <span className="blinking-dot"></span>

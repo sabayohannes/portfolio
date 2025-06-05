@@ -30,22 +30,20 @@ function App() {
     fontFamily: 'sans-serif',
   };
   return (
-    <div className="App" style={themeStyles}>
-      <div className="toggle-button-wrapper">
-        <button onClick={toggleTheme} className="theme-toggle-button">
-          Switch to {isDarkMode ? 'Light' : 'Dark'} Mode
-        </button>
-      </div>
+    <div className="App">
+     
+      
     <BrowserRouter>
     
  <Routes>
-  <Route element={<About isDarkMode={isDarkMode}/>}path='/'/>
-  <Route element={<Contact isDarkMode={isDarkMode}/>}path='/contact'/>
-  <Route element={<Projects isDarkMode={isDarkMode}/>} path='/projects'/>
-  <Route element={<Writing isDarkMode={isDarkMode}/>}path="/Writing"  />
+  <Route element={<About isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>}path='/'/>
+  <Route element={<Contact isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>}path='/contact'/>
+  <Route element={<Projects isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>} path='/projects'/>
+  <Route element={<Writing isDarkMode={isDarkMode}toggleTheme={toggleTheme}/>}path="/Writing"  />
  </Routes>
  </BrowserRouter>
       </div>
+
   );
 }
 
