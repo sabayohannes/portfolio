@@ -16,21 +16,29 @@ const About = ({ isDarkMode,toggleTheme }) => {
         <p>I’m a creative developer who loves animation and playful layouts.</p>
       </div>
       <div className="right-column light">
-        <h2>More Info</h2>
+        <h2>A Bit About Me</h2>
         <ul className='links'>
           <li><Link to='/projects'>projects</Link></li>
           <li><Link to='/contact'>contact</Link></li>
           <li><Link to='/Writing'>writing</Link></li>
         </ul>
-        <p>Hi, I’m Saba!<br /><br />
-
-I’m a passionate Full-Stack Developer who loves building seamless web experiences.
-
-From crafting sleek user interfaces with React to building powerful backends with Node.js and MongoDB, I enjoy turning ideas into reality.
-
-When I’m not coding, you might find me exploring new tech, sharing fun facts, or enjoying a good cup of coffee ☕.
-
-Let’s build something amazing together!</p>
+        <div className="card-wrapper">
+  <div className="info-card">
+    <div className="card-front">
+      <p>
+        Hi, I’m Saba!<br /><br />
+        I’m a passionate Full-Stack Developer who loves building seamless web experiences.
+      </p>
+    </div>
+    <div className="card-back">
+      <p>
+        From React UIs to Node.js backends, I enjoy turning ideas into reality.<br /><br />
+        When not coding, I explore tech, share fun facts, or sip coffee ☕.<br /><br />
+        Let’s build something amazing together!
+      </p>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );

@@ -1,14 +1,33 @@
-.left-column {
-  min-height: 100vh;
-  width: 100%;        /* change from 100vw to 100% */
-  box-sizing: border-box;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
-.left-column.dark {
-  background:
-    radial-gradient(ellipse at top left, #1a1a1a 20%, transparent 60%),
-    radial-gradient(ellipse at bottom right, #333333 20%, transparent 60%),
-    radial-gradient(circle at center, rgba(0, 0, 0, 0.4) 20%, transparent 70%);
-  background-color: #121212;
-  color: #f1f1f1;
+.left-column {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem; /* Add spacing inside */
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-me {
+  padding-bottom: 16px;
+  font-size: 1.8rem;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
 }

@@ -7,15 +7,15 @@ const projectList=[
     description:
       "Full-Stack app with user login, admin/user privileges, CRUD operations, and backend using MongoDB.",
     tech: "React, Node.js, Express, MongoDB",
-    liveLink: "https://your-vercel-link.vercel.app",
-    githubLink: "https://github.com/yourusername/employee-management-system"},
+    liveLink: "https://employee-frontend-lovat.vercel.app/",
+    githubLink: "https://github.com/sabayohannes/employee-frontend"},
     {
   title: "Role-Based Clothing E-Commerce Store",
   description:
     "A full-stack online store for clothing with role-based authentication (admin vs. user). Admins can manage products and orders, while users can browse, add to cart, and checkout.",
   tech: "React, Node.js, Express, MongoDB, JWT, Context API",
-  liveLink: "https://your-clothing-store.vercel.app", // replace with real link
-  githubLink: "https://github.com/yourusername/clothing-store" // replace with real link
+  liveLink: "https://clothing-store.vercel.app", 
+  githubLink: "https://github.com/clothing-store" 
 }
 ]
 
